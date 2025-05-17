@@ -1,0 +1,80 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9ffff;
+  margin: 0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.cat-img {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pet-name {
+  font-size: 48px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.stats-box {
+  background: #7BE6EE;
+  display: inline-block;
+  padding: 30px 40px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.8;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.btn {
+  background: #7BE6EE;
+  border: none;
+  font-size: 32px;
+  padding: 16px 32px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+.pet-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.status-msg {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+  max-width: 300px;
+}
+
+.btn:hover {
+  background: #66d4dd;
+}

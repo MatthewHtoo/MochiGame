@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pet Simulator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="title">🐾✨ Pet Simulator ✨🐾</h1>
+
+ <div class="pet-row">
+<img id="petMood" src="neutral.png" alt="Mochi the Cat">
+  <p id="statusMessage" class="status-msg">Mochi is feeling okay. 😐</p>
+</div>
+
+
+  <h2 class="pet-name">Mochi the Cat 🐱</h2>
+
+  <div class="stats-box">
+    <p id="hungerText">🍗 Fullness: 10</p>
+    <p id="happinessText">🎉 Happiness: 10</p>
+  </div>
+
+  <div class="buttons">
+    <button class="btn" onclick="feedPet()">🍽 Feed</button>
+    <button class="btn" onclick="playWithPet()">🎾 Play</button>
+    <button class="btn" onclick="sleepPet()">💤 Sleep</button>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
